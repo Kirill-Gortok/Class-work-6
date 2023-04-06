@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a = 21;
+        if(a>20){
+            console.log("Да,мне 20");
+        }
+        else{
+            console.log('Тебе меньше 20ти лет');
+        }
+
+        let b = 20;
+        if(b>21){
+            console.log("Да,мне 20");
+        }
+        else if(b==20){
+            console.log("Мне точно 20");
+        }
+        else{
+            console.log("Тебе меньши 20ти лет");
+        }
+
+
+        let age = prompt("Сколько тебе лет?")
+        if(age>18){
+            alert("Добро пожаловать");
+        }
+        else if(age==18){
+            alert("Вход разрешен");
+        }
+        else{
+            alert("Без разрешения родителей,вход запрещен")
+        }
+
+
+        let s = prompt("Введите число")
+        if(s==10){
+            alert("Верно")
+        }
+        else{
+          alert("Не верно")
+        }
+
+        let min = prompt("Введите число от 1 до 59");
+      if(min >= 0 && min <+ 14){
+          alert("1 четверть")
+      }
+      if(min >= 15 && min <= 30){
+          alert("2 четверть")}
+      if(min >= 31 && min <= 45){
+      alert("3 четверть")}
+     else{
+         alert("4 четверть")
+     }
+
+     let month = prompt("Введите число от 1 до 12")
+     if(month >= 1 && month <=3){
+         alert("Этот месяц относится к Зиме")}
+     if(month >= 4 && month <=6){
+         alert("Этот месяц относится к Весна")}
+     if(month >= 7 && month <=9){
+         alert("Этот месяц относится к Лету")}
+     if(month >= 10 && month <=12){
+         alert("Этот месяц относится к Осени")} 
+       
+
+    let day = prompt("Введите число от 1 до 31")
+    if(day >= 1 && day <=10){
+         alert("Он относится к первой декаде")}
+    if(day >= 11 && day <=20){
+         alert("Он относится ко второй декаде")}
+    if(day >= 21 && day <=31){
+         alert("Он относится к третьей декаде")}
+    </script>
+</body>
+</html>
